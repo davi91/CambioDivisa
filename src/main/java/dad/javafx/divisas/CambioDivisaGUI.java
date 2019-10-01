@@ -206,6 +206,7 @@ public class CambioDivisaGUI extends Application {
 				break;
 			}
 			
+			// Lo redondeamos un poco con un float
 			txtTo.setText(String.valueOf((float)resultado));
 		}
 		
